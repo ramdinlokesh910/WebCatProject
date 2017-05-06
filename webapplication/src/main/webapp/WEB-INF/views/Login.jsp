@@ -8,58 +8,32 @@
 <title>Yahoo From JSP</title>
 </head>
 <body>
-
+<img alt="Welcome" src="../images/wiu_logo.jpg"  height="150" width="100"/>
 <h2>Web Cat Welcome Page!!</h2>
 <br>
-
 <%-- 
 Hello  ${name}
-
-
 <%
 	System.out.print("parameter Got from url: "+request.getParameter("name"));
 	Date date = new Date();
 	
 %>
-
-
 <br>
 <div> Todays Date is <%= date %></div>
 
 --%>
-			
 		<form action="/login.do" method="post">
-				<table ">
+				<table>
 						<tbody>
-							
-							<!-- 
-								<tr>
-									<td>Enter ID:</td>
-									<td><input type="text" name="ID" size="50"/></td>
-								</tr>
-								
-								<tr>
-									<td>Course Name:</td>
-									<td><input type="text" name="course" size="50"/></td>
-								</tr>		
-										
-								<tr>
-									<td>User Name:</td>
-									<td><input type="text"  name="user" size="50"/></td>
-								</tr>
-								<tr>
-										<td><input type="submit" value="Login"></td>	
-								</tr>
-							 -->	
 							 <tr>
 									<td>Select User:</td>
 									<td>
 										<select name="userName"> 
-											<option>Select User </option>
-											<option>--A--</option>
-											<option>--B--</option>
-											<option>--C--</option>
-											<option>--D--</option>
+											<option value="">Select User </option>
+											<option value="userA">--A--</option>
+											<option value="userB">--B--</option>
+											<option value="userC">--C--</option>
+											<option value="userD">--D--</option>
 										</select>
 									</td>	
 								</tr><tr></tr>
@@ -67,23 +41,22 @@ Hello  ${name}
 									<td>Select Department:</td>
 									<td>
 										<select name="Department"> 
-											<option>Select Department </option>
-											<option>--Computer Science--</option>
-											<option>--B--</option>
-											<option>--C--</option>
-											<option>--D--</option>
+											<option value="">Select Department </option>
+											<option value="cs">--Computer Science--</option>
+											<option value="chem">--Chemistry--</option>
+											<option value="FA">--Fine-Arts--</option>
+											<option value="LEN">--Law-Enforcement--</option>
 										</select>
 									</td>	
 								</tr><tr></tr>
-								
 								
 								<tr>
 									<td>Courses:</td>
 									<td>
 										<select name="courses"> 
-											<option>Select Courses </option>
-											<option>Computer Networks</option>
-											<option>Intensive Programming</option>
+											<option value="">Select Courses </option>
+											<option value="CN">Computer Networks</option>
+											<option value="IP">Intensive Programming</option>
 										</select>
 									</td>	
 								</tr><tr></tr>
@@ -91,26 +64,22 @@ Hello  ${name}
 								<tr>
 									<td>Assignment:</td>
 									<td>
-										<select name="courses"> 
-											<option>Select Assignment </option>
-											<option>Assi-1	 </option>
-											<option>Assi-2	 </option>
-											<option>Assi-3	 </option>
-											<option>Assi-4	 </option>
-											<option>Assi-5	 </option>
+										<select name="assignment"> 
+											<option value="">Select Assignment </option>
+											<option value="ass1">Assi-1	 </option>
+											<option value="ass2">Assi-2	 </option>
+											<option value="ass3">Assi-3	 </option>
+											<option value="ass4">Assi-4	 </option>
+											<option value="ass5">Assi-5	 </option>
 										</select>
 									</td>	
 								</tr>
-								
-											
 						</tbody>
 						
 				</table>
 		
 		 <input type="reset" value="Clear" name="clear"/>
 		 <input type="submit" value="Submit" name="Submit"/>
-		
-		
 		
 		</form>
 

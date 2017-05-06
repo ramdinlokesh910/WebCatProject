@@ -70,7 +70,6 @@ public class LoginServlet extends HttpServlet {
 		} catch (Exception e) {
 			System.err.println("Error!!"+e);
 		}
-	
 		
 	}//End doGet Method
 	

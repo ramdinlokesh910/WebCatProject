@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [25/Apr/2017:00:14:17 -0500] "GET / HTTP/1.1" 200 2245 http-bio-8080-exec-1 1488
+0:0:0:0:0:0:0:1 - - [25/Apr/2017:00:14:17 -0500] "GET /images/wiu_logo.jpg HTTP/1.1" 200 4999 http-bio-8080-exec-2 6
+0:0:0:0:0:0:0:1 - - [25/Apr/2017:00:14:19 -0500] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [25/Apr/2017:00:14:28 -0500] "GET /Department.jsp HTTP/1.1" 200 1483 http-bio-8080-exec-5 127
+0:0:0:0:0:0:0:1 - - [25/Apr/2017:00:14:53 -0500] "GET /dept_servlet?Dept_ABR=CS-9&Dept_ID=9&Dept_Name=COM+SCI9&Inst_ID=9 HTTP/1.1" 200 732 http-bio-8080-exec-7 3651
+0:0:0:0:0:0:0:1 - - [25/Apr/2017:00:16:23 -0500] "GET /Department.jsp HTTP/1.1" 200 1483 http-bio-8080-exec-9 5
+0:0:0:0:0:0:0:1 - - [25/Apr/2017:00:16:41 -0500] "GET /dept_servlet?Dept_ABR=CS11&Dept_ID=1234&Dept_Name=CSD133&Inst_ID=1234 HTTP/1.1" 200 5420 http-bio-8080-exec-1 784
+0:0:0:0:0:0:0:1 - - [25/Apr/2017:18:54:05 -0500] "GET / HTTP/1.1" 200 2245 http-bio-8080-exec-1 10629
+0:0:0:0:0:0:0:1 - - [25/Apr/2017:18:54:06 -0500] "GET /images/wiu_logo.jpg HTTP/1.1" 304 - http-bio-8080-exec-2 663

@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [20/Apr/2017:21:38:28 -0500] "GET / HTTP/1.1" 200 2170 http-bio-8080-exec-1 3263
+0:0:0:0:0:0:0:1 - - [20/Apr/2017:21:38:29 -0500] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-2 4
+0:0:0:0:0:0:0:1 - - [20/Apr/2017:21:38:46 -0500] "GET /Department.jsp HTTP/1.1" 200 1315 http-bio-8080-exec-4 156
+0:0:0:0:0:0:0:1 - - [20/Apr/2017:22:39:47 -0500] "GET /Department.jsp HTTP/1.1" 200 1315 http-bio-8080-exec-6 877
+0:0:0:0:0:0:0:1 - - [20/Apr/2017:22:40:19 -0500] "GET /dept_servlet?Dept_ABR=CH&Dept_ID=1&Dept_Name=Chemistry&Inst_ID=1 HTTP/1.1" 404 1011 http-bio-8080-exec-8 4934
+0:0:0:0:0:0:0:1 - - [20/Apr/2017:22:41:45 -0500] "GET / HTTP/1.1" 200 2170 http-bio-8080-exec-10 339
+0:0:0:0:0:0:0:1 - - [20/Apr/2017:22:41:57 -0500] "GET /Department.jsp HTTP/1.1" 200 1315 http-bio-8080-exec-2 3
+0:0:0:0:0:0:0:1 - - [20/Apr/2017:22:42:32 -0500] "GET /dept_servlet?Dept_ABR=CS&Dept_ID=1&Dept_Name=Computer+Science&Inst_ID=2&Submit=Submit HTTP/1.1" 404 1011 http-bio-8080-exec-4 191
+0:0:0:0:0:0:0:1 - - [20/Apr/2017:22:45:51 -0500] "GET /dept_servlet?Dept_ABR=CS1&Dept_ID=3&Dept_Name=Computer+Science-New&Inst_ID=3 HTTP/1.1" 404 999 http-bio-8080-exec-6 901
+0:0:0:0:0:0:0:1 - - [20/Apr/2017:22:46:54 -0500] "GET /dept_servlet?Dept_ABR=CS2&Dept_ID=4&Dept_Name=Computer+Science-4&Inst_ID=4 HTTP/1.1" 200 296 http-bio-8080-exec-8 2146
+0:0:0:0:0:0:0:1 - - [20/Apr/2017:23:15:23 -0500] "GET / HTTP/1.1" 200 2170 http-bio-8080-exec-1 398
+0:0:0:0:0:0:0:1 - - [20/Apr/2017:23:15:32 -0500] "GET /Department.jsp HTTP/1.1" 200 1315 http-bio-8080-exec-3 43
+0:0:0:0:0:0:0:1 - - [20/Apr/2017:23:16:03 -0500] "GET /dept_servlet?Dept_ABR=PH&Dept_ID=5&Dept_Name=Physics&Inst_ID=5 HTTP/1.1" 200 375 http-bio-8080-exec-5 791
+0:0:0:0:0:0:0:1 - - [20/Apr/2017:23:16:06 -0500] "GET /dept_servlet?Dept_ABR=PH&Dept_ID=5&Dept_Name=Physics&Inst_ID=5 HTTP/1.1" 200 375 http-bio-8080-exec-5 251
+0:0:0:0:0:0:0:1 - - [20/Apr/2017:23:16:07 -0500] "GET /dept_servlet?Dept_ABR=PH&Dept_ID=5&Dept_Name=Physics&Inst_ID=5 HTTP/1.1" 200 375 http-bio-8080-exec-5 162
+0:0:0:0:0:0:0:1 - - [20/Apr/2017:23:16:07 -0500] "GET /dept_servlet?Dept_ABR=PH&Dept_ID=5&Dept_Name=Physics&Inst_ID=5 HTTP/1.1" 200 375 http-bio-8080-exec-5 112
